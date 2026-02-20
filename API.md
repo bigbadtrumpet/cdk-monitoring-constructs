@@ -77061,9 +77061,9 @@ if undefined, uses the global default
 
 - *Type:* string
 
-specify a custom region;
+- deprecated.
 
-if undefined, uses the global default
+only relevant in searches, please use createSearchMetric if doing cross region search
 
 ---
 
@@ -77071,9 +77071,9 @@ if undefined, uses the global default
 
 - *Type:* string
 
-specify a custom account;
+- deprecated.
 
-if undefined, uses the global default
+only relevant in searches, please use createSearchMetric if doing cross region search
 
 ---
 
