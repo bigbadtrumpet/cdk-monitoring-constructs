@@ -97,8 +97,8 @@ export class MetricFactory {
    * @param label metric label (required, as there is no reasonable default)
    * @param color metric color; if undefined, uses a CloudWatch provided color (preferred)
    * @param period specify a custom period; if undefined, uses the global default
-   * @param region -- deprecated. only relevant in searches, please use createSearchMetric if doing cross region search
-   * @param account -- deprecated. only relevant in searches, please use createSearchMetric if doing cross region search
+   * @param region -- Deprecated: Use createSearchMetric if doing cross region search
+   * @param account -- Deprecated: Use createSearchMetric if doing cross region search
    */
   createMetricMath(
     expression: string,
