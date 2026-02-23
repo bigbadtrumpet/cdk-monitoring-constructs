@@ -77061,9 +77061,7 @@ if undefined, uses the global default
 
 - *Type:* string
 
-- deprecated.
-
-only relevant in searches, please use createSearchMetric if doing cross region search
+- Deprecated: Use createSearchMetric if doing cross region search.
 
 ---
 
@@ -77071,9 +77069,7 @@ only relevant in searches, please use createSearchMetric if doing cross region s
 
 - *Type:* string
 
-- deprecated.
-
-only relevant in searches, please use createSearchMetric if doing cross region search
+- Deprecated: Use createSearchMetric if doing cross region search.
 
 ---
 
