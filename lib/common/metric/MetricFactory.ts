@@ -111,7 +111,7 @@ export class MetricFactory {
   ): MetricWithAlarmSupport {
     if (region || account) {
       console.warn(
-        "Using region or account is deprecated in metric math. This will be removed in a future version",
+        "'region' and 'account' inputs are ignored, please use 'createSearchMetric'",
       );
     }
     return new MathExpression({
